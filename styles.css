@@ -1,0 +1,140 @@
+body {
+    margin: 0;
+}
+
+.maze {
+    background: #f7c401 url("maze1.png") no-repeat top;
+    /*background: #f7c401;*/
+    text-align: center;
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    transition: visibility 1s, opacity 1s linear;
+}
+
+form {
+    padding-top: 35vh;
+}
+
+input {
+    height: 120px;
+    width: 120px;
+    font-size: 80px;
+    background: none;
+    border: solid #5b1101;
+    text-align: center;
+    margin: 0 5px 0 5px;
+    -moz-border-radius: 10%;
+    -webkit-border-radius: 10%;
+    border-radius: 10%;
+    color: #5b1101;
+    text-transform: uppercase;
+}
+
+input[type=text]:focus {
+    outline: none;
+}
+
+.button {
+    margin: 20px auto 0 auto;
+    height: 40px;
+    width: 250px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    text-align: center;
+    background: #5b1101;
+    color: #e47901;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+
+}
+
+.button:active {
+    color: #f7c401;
+}
+
+h6 {
+    color: #e47901;
+    font-size: 30px;
+    font-family: 'Kalam', cursive;
+    position: fixed;
+    bottom: 20px;
+    margin: 0;
+    width: 100%;
+}
+
+.center {
+    background-image: url('flower.jpg');
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    position: absolute;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 1s, opacity 1s linear;
+}
+
+.info {
+    width: 50%;
+    margin: 100px auto 0 auto;
+    height: 75%;
+    background-color: #f8a910;
+    border: 20px;
+    border-color: #3f581e;
+    text-align: center;
+    font-family: georgia;
+    color: #3f581e;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: flex-start;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 1s, opacity 1s linear;
+    transition-delay: 1.5s;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    height: min-content;
+    margin-top: 10px;
+}
+
+h2 {
+    margin: 0;
+}
+
+h3 {
+    width: 100%;
+    margin: 20px 0 5px 0;
+}
+
+.prize {
+    max-width: 70%;
+    max-height: 60%;
+    margin-bottom: 10px;
+}
+
+.heart {
+    max-width: 8%;
+    max-height: 8%;
+    margin: 5px 0 5px 0;
+}
+
+h4 {
+    width: 100%;
+    margin: 1px 0 1px 0;
+}
+
+a {
+    width: 100%;
+    margin-bottom: 5px;
+}
